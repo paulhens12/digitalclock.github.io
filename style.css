@@ -1,0 +1,176 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    overflow: hidden;
+}
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    color: antiquewhite;
+    opacity: 0.8;
+  }
+h2{
+    color: rgb(78, 61, 78);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 7px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 75px;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    color: rgb(67, 75, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 2pc black(0, 0, 0, 0.3);
+    text-transform: uppercase;
+
+}
+.clock .text{
+    height: 35px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background: rgb(70, 65, 57);
+    color: antiquewhite;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 66px;
+    height: 35px;
+    font-size: 25px;
+    background-color:rgb(150, 161, 171);
+    border-radius: 15px;
+}
+
+.date {
+    position: absolute;
+    display: flex;
+    top: 3%;
+}
+.date div{
+    margin: 7px;
+}
+
+.date p{
+    width: 65px;
+    height: 35px;
+    background-color: rgb(70, 65, 57);
+    display: flex;
+    opacity: 0.8;
+    color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: smaller;
+    text-shadow: 2px 2px 2pc black(0, 0, 0, 0.3);
+    border-radius: 45px;
+}
+.date .value{
+    height: 50px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    color: rgb(67, 75, 73);
+
+}
+.date #weekdays{
+    border-radius: 10px;
+    width:75px;
+    background-color: antiquewhite;
+    color: rgb(67, 75, 73);
+}
+.date #day{
+    width: 75px;
+    border-radius: 10px;
+    background-color: rgb(67, 75, 73);
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+/*.date{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.date div{
+    margin: 5px;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(67, 75, 73);
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    opacity: 0.8;
+    text-align: center;
+}
+.date span{
+    height: 25px;
+    align-items: center;
+}
+.date p{
+    height: 30px;
+    background-color: rgb(70, 65, 57);
+    color: antiquewhite;
+}*/
+
+/*.date{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-transform: uppercase;
+}
+.date div{
+    margin: 7px;
+    
+}
+.date span{
+    width: 50px;
+    height: 25px;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    color: rgb(67, 75, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-shadow: 2px 2px 2pc black(0, 0, 0, 0.3);
+    text-transform: uppercase;
+
+}
+.date p{
+    height: 35px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background: rgb(70, 65, 57);
+    color: antiquewhite;
+}*/
